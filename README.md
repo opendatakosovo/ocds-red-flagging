@@ -14,7 +14,7 @@ These are the variables we can use to formulate rules:
 - contract.implementation.transactions
 
 ### Supported Operands
-|    |                       |
+
 |----|-----------------------|
 | == | Equality              |
 | != | Inequlity             |
