@@ -42,13 +42,13 @@ Variables we can use to formulate rules:
 ### Sample rules
 
 The contract value is greater than the budget amount:
-contract.value > planning.budget.amount
+`contract.value > planning.budget.amount`
 
 The contract value is greater than the budget amount by more than an additional 10%:
-contract.value > (planning.budget.amount + 0.10 * planning.budget.amount)
+`contract.value > (planning.budget.amount + 0.10 * planning.budget.amount)`
 
 The absolute difference between the contract value and the budget amount is less than one hundred:
-abs(planning.budget.amount - contract.value) < 100
+`abs(planning.budget.amount - contract.value) < 100`
 
 The contract value is zero:
-contract.value == 0
+`contract.value == 0`
