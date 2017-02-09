@@ -1,0 +1,6 @@
+{'rules':[
+  'contract.value > planning.budget.amount',
+  'contract.value > (planning.budget.amount + 0.10 * planning.budget.amount)',
+  'abs(planning.budget.amount - contract.value) < 100',
+  'contract.value == 0'
+]}
